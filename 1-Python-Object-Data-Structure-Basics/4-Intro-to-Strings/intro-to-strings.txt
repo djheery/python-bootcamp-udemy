@@ -1,4 +1,6 @@
+----------------
 Intro to Strings
+----------------
 
 Strings are Sequences of Characters wrapped in single quotes or double quotes
 
@@ -8,3 +10,39 @@ Strings are Sequences of Characters wrapped in single quotes or double quotes
 If one of your words contains a single quote as an apostrophe you should wrap the string in double quotes
 
 "I don't like poo"
+
+Strings are ordered sequences. This means we can use indexin and slicing to grab sub-sections of the string/
+
+--------
+Indexing
+--------
+
+Indexing notation uses [] notation after the string or variable assigned to the string.
+
+Indexing allows you to grab a single character from the string.
+
+This means every single character has a seperate index e.g:
+
+          Str   h   e   l   l   o
+        index   0   1   2   3   4
+reverse index   0   -4  -3  -2  -1
+
+Python is a 0 indexed language (Like JavaScript Arrays)
+
+You can use reverse indexing in python e.g. ig you wanted to grab the last letter of the above string you could use -1, rather than 4
+
+--------
+Slicing
+--------
+
+Slicing allows you to grab a subsection of multiple characters. 
+
+Slicing has the following syntax:
+  - [start:stop:step]
+  - start: this is the start of 
+
+
+
+
+
+
