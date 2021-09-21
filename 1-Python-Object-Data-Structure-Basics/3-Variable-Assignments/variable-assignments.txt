@@ -1,0 +1,33 @@
+Variables
+
+Variables are pointers to specific items in memory to be referenced throughout your code.
+
+Rules for Variable names in Python
+
+- Names cannot start with a Numbers
+- There can be no spaces in the name 
+  - You should use an underscore instead i.e NEW_VARIABLE 
+- You cannot use most of the special characters
+- Generally considerd best practice for lowercase variables (Gloabl Variables could be Uppercase)
+- Avoid using reserved names (list, int)
+
+Python uses dynamic typing which means you can reassign variables to different data Types
+This is differ to statically typed languages which ill lock the data type of a variable.
+
+Example:
+
+my_name = 2
+my_name = [hello, 2, 5]
+
+Pros & Cons
+
+pros:
+  - Avoids Writing Types
+  - Easier to work with
+  - Faster Development time
+cons: 
+  - May result in unexpected bugs due to data Types
+  - You need to be aware of type()
+
+You can use the inbuilt type() function to check the type of any variable
+

@@ -1,0 +1,10 @@
+Intro to Strings
+
+Strings are Sequences of Characters wrapped in single quotes or double quotes
+
+'Hello'
+"World"
+
+If one of your words contains a single quote as an apostrophe you should wrap the string in double quotes
+
+"I don't like poo"
